@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"lib": ["es2017", "dom"],
+		"baseUrl": ".",
+		"target": "es6",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"outDir": "./dist",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"typeRoots": ["./node_modules/@types", "./src/@types"]
+	},
+	"include": ["src/**/*.ts", "test.ts"],
+	"exclude": ["node_modules"]
+}
